@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "1451E0C2-FA00-40F8-8BE1-2647C077D776",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:TuistTestPlan.xcodeproj",
+        "identifier" : "B9654EC092FB3C49710D4FAA",
+        "name" : "UnitTests"
+      }
+    }
+  ],
+  "version" : 1
+}
